@@ -1,0 +1,106 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras</title>
+    <style>
+        /* Estilo del cuerpo de la página */
+        body {
+            font-family: 'Helvetica', sans-serif; /* Tipo de letra */
+            background-color: #f7f7f7; /* Color de fondo */
+            margin: 0; /* Elimina los márgenes predeterminados */
+            padding: 0; /* Elimina el relleno predeterminado */
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #333; /* Color de fondo del encabezado */
+            color: #fff; /* Color del texto del encabezado */
+            padding: 10px; /* Espaciado interno */
+            text-align: center; /* Alineación de texto al centro */
+        }
+
+        /* Estilo de la barra lateral */
+        aside {
+            background-color: #0073e6; /* Color de fondo de la barra lateral */
+            color: #fff; /* Color del texto de la barra lateral */
+            width: 20%; /* Ancho de la barra lateral */
+            padding: 20px; /* Espaciado interno */
+            float: left; /* Alineación a la izquierda */
+        }
+
+        /* Estilo de la sección de contenido */
+        section {
+            background-color: #fff; /* Color de fondo del contenido */
+            padding: 20px; /* Espaciado interno */
+            margin-left: 25%; /* Margen izquierdo para dejar espacio para la barra lateral */
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #333; /* Color de fondo del pie de página */
+            color: #fff; /* Color del texto del pie de página */
+            text-align: center; /* Alineación de texto al centro */
+            clear: both; /* Limpia ambos lados para evitar la superposición de elementos */
+            padding: 10px; /* Espaciado interno */
+        }
+
+        /* Estilo para la lista de productos en el carrito */
+        .carrito-item {
+            border: 1px solid #ddd; /* Borde del cuadro de producto en el carrito */
+            padding: 10px; /* Espaciado interno */
+            margin: 10px 0; /* Margen superior e inferior entre los elementos */
+            background-color: #fff; /* Color de fondo del cuadro de producto en el carrito */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="cuenta.html">Mi Cuenta</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="categorias.html">Categorías</a></li>
+                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <section>
+        <h2>Tu Carrito de Compras</h2>
+        <!-- Ejemplo de lista de productos en el carrito -->
+        <div class="carrito-item">
+            <h3>Play Station</h3>
+            <p>Play Station.</p>
+            <p>Precio: $19.99</p>
+            <p>Cantidad: 2</p>
+            <p>Total: $39.98</p>
+        </div>
+        <div class="carrito-item">
+            <h3>Nintendo</h3>
+            <p>Nintendo.</p>
+            <p>Precio: $24.99</p>
+            <p>Cantidad: 1</p>
+            <p>Total: $24.99</p>
+        </div>
+        <div class="carrito-item">
+            <h3>XBox</h3>
+            <p>XBox.</p>
+            <p>Precio: $14.99</p>
+            <p>Cantidad: 3</p>
+            <p>Total: $44.97</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2023 Tienda en Línea. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

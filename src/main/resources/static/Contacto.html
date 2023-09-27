@@ -1,0 +1,118 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <style>
+        /* Estilo del cuerpo de la página */
+        body {
+            font-family: 'Roboto', sans-serif; /* Tipo de letra */
+            background-color: #f0f0f0; /* Color de fondo */
+            margin: 0; /* Elimina los márgenes predeterminados */
+            padding: 0; /* Elimina el relleno predeterminado */
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #0073e6; /* Color de fondo del encabezado */
+            color: #fff; /* Color del texto del encabezado */
+            padding: 10px; /* Espaciado interno */
+            text-align: center; /* Alineación de texto al centro */
+        }
+
+        /* Estilo de la barra lateral */
+        aside {
+            background-color: #333; /* Color de fondo de la barra lateral */
+            color: #fff; /* Color del texto de la barra lateral */
+            width: 20%; /* Ancho de la barra lateral */
+            padding: 20px; /* Espaciado interno */
+            float: left; /* Alineación a la izquierda */
+        }
+
+        /* Estilo de la sección de contenido */
+        section {
+            background-color: #fff; /* Color de fondo del contenido */
+            padding: 20px; /* Espaciado interno */
+            margin-left: 25%; /* Margen izquierdo para dejar espacio para la barra lateral */
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #333; /* Color de fondo del pie de página */
+            color: #fff; /* Color del texto del pie de página */
+            text-align: center; /* Alineación de texto al centro */
+            clear: both; /* Limpia ambos lados para evitar la superposición de elementos */
+            padding: 10px; /* Espaciado interno */
+        }
+
+        /* Estilo para el formulario de contacto */
+        .formulario-contacto {
+            border: 1px solid #ccc; /* Borde del formulario */
+            padding: 20px; /* Espaciado interno */
+            background-color: #fff; /* Color de fondo del formulario */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+        }
+
+        /* Estilo para los campos del formulario */
+        .campo-formulario {
+            margin-bottom: 20px; /* Margen inferior entre los campos del formulario */
+        }
+
+        /* Estilo para el botón de enviar */
+        .btn-enviar {
+            background-color: #0073e6; /* Color de fondo del botón */
+            color: #fff; /* Color del texto del botón */
+            padding: 10px 20px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito de Compras</a></li>
+                <li><a href="cuenta.html">Mi Cuenta</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="categorias.html">Categorías</a></li>
+                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <section>
+        <h2>¡Contáctanos!</h2>
+        <p>Estamos aquí para ayudarte. Por favor, completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.</p>
+
+        <!-- Formulario de contacto -->
+        <div class="formulario-contacto">
+            <div class="campo-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="campo-formulario">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico">
+            </div>
+            <div class="campo-formulario">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+            </div>
+            <div class="campo-formulario">
+                <input type="submit" value="Enviar" class="btn-enviar">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2023 Tienda en Línea. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
